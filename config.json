@@ -15,11 +15,11 @@
   },
   "aboutGreeting": "It's me Wasath. Full stack developer from Sri Lanka.",
   "projects": [
-    ["Adam's Peak Web", "Web site for 'Sri Padaya' Sri Lanka", "https://github.com/nasan016/gofer"],
+    ["Adam's Peak Web", "Web site for 'Sri Padaya' Sri Lanka", "https://github.com/WasathTheekshana/adams-peak"],
     [
-      "WebShell",
-      "Terminal styled website.",
-      "https://github.com/nasan016/webshell"
+      "Location Service",
+      "JWT auth with REST API",
+      "https://github.com/WasathTheekshana/location-service"
     ]
   ]
 }
