@@ -1,0 +1,25 @@
+{
+  "ascii": [
+    "██╗    ██╗ █████╗ ███████╗ █████╗ ████████╗██╗  ██╗",
+    "██║    ██║██╔══██╗██╔════╝██╔══██╗╚══██╔══╝██║  ██║",
+    "██║ █╗ ██║███████║███████╗███████║   ██║   ███████║",
+    "██║███╗██║██╔══██║╚════██║██╔══██║   ██║   ██╔══██║",
+    "╚███╔███╔╝██║  ██║███████║██║  ██║   ██║   ██║  ██║",
+    " ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝"
+  ],
+  "repoLink": "https://github.com/WasathTheekshana/wasaths-terminal",
+  "social": {
+    "email": "wasath.vt@gmail.com",
+    "github": "WasathTheekshana",
+    "linkedin": "wasatht"
+  },
+  "aboutGreeting": "It's me Wasath. Full stack developer from Sri Lanka.",
+  "projects": [
+    ["Adam's Peak Web", "Web site for 'Sri Padaya' Sri Lanka", "https://github.com/nasan016/gofer"],
+    [
+      "WebShell",
+      "Terminal styled website.",
+      "https://github.com/nasan016/webshell"
+    ]
+  ]
+}
