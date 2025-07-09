@@ -11,11 +11,17 @@
   "social": {
     "email": "wasath.vt@gmail.com",
     "github": "WasathTheekshana",
-    "linkedin": "wasatht"
+    "linkedin": "wasatht",
+    "tiktok": "wasath_theekshana",
+    "youtube": "wasaththedev"
   },
-  "aboutGreeting": "It's me Wasath. Full stack developer from Sri Lanka.",
+  "aboutGreeting": "It's me Wasath. DevOps & Cloud Infrastructure Engineer from Sri Lanka.",
   "projects": [
-    ["Adam's Peak Web", "Web site for 'Sri Padaya' Sri Lanka", "https://github.com/WasathTheekshana/adams-peak"],
+    [
+      "Adam's Peak Web",
+      "Web site for 'Sri Padaya' Sri Lanka",
+      "https://github.com/WasathTheekshana/adams-peak"
+    ],
     [
       "Location Service",
       "JWT auth with REST API",

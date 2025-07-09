@@ -8,10 +8,14 @@ const createAbout = () : string[] => {
   const EMAIL = "Email";
   const GITHUB = "Github";
   const LINKEDIN = "Linkedin";
+  const TIKTOK = "TikTok";
+  const YOUTUBE = "YouTube";
   
   const email = `<i class='fa-solid fa-envelope'></i> ${EMAIL}`;   
   const github = `<i class='fa-brands fa-github'></i> ${GITHUB}`;
   const linkedin = `<i class='fa-brands fa-linkedin'></i> ${LINKEDIN}`;
+  const tiktok = `<i class='fa-brands fa-tiktok'></i> ${TIKTOK}`;
+  const youtube = `<i class='fa-brands fa-youtube'></i> ${YOUTUBE}`;
   let string = "";
 
   about.push("<br>");
@@ -35,6 +39,20 @@ const createAbout = () : string[] => {
   string += linkedin;
   string += SPACE.repeat(17 - LINKEDIN.length);  
   string += `<a target='_blank' href='https://www.linkedin.com/in/${command.social.linkedin}'>linkedin/${command.social.linkedin}</a>`;
+  about.push(string);
+
+  string = '';
+  string += SPACE.repeat(2);
+  string += tiktok;
+  string += SPACE.repeat(17 - TIKTOK.length);
+  string += `<a target='_blank' href='https://www.tiktok.com/@${command.social.tiktok}'>tiktok/${command.social.tiktok}</a>`;
+  about.push(string);
+
+  string = '';
+  string += SPACE.repeat(2);
+  string += youtube;
+  string += SPACE.repeat(17 - YOUTUBE.length);
+  string += `<a target='_blank' href='https://www.youtube.com/@${command.social.youtube}'>youtube/${command.social.youtube}</a>`;
   about.push(string);
 
   about.push("<br>");
