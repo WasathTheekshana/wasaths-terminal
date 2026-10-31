@@ -1,1 +1,37 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c0b1525f-69f1-4d7a-b3fe-2784a414c398/deploy-status)](https://app.netlify.com/sites/super-salamander-5463e8/deploys)
+# wasaths-terminal
+
+My personal site, made to look like a terminal. You type commands (`about`, `projects`, `skills`) and it prints the answers. Live at [wasath.site](https://wasath.site).
+
+The first version was Vite and plain TypeScript. This one is Next.js (App Router) with React, still TypeScript, and has no UI libraries. Everything animated is CSS or a small canvas.
+
+## Running it
+
+You need Node 20 or newer.
+
+```bash
+npm install
+npm run dev
+```
+
+Then open http://localhost:3000. For a production build, use `npm run build` and `npm start`.
+
+## Where things live
+
+| Path | What it does |
+| --- | --- |
+| `lib/data.ts` | My details: bio, experience, education, skills and the project list. Edit this to change what the site says. |
+| `lib/commands.tsx` | Every command. To add one, add an entry to the `COMMANDS` array. |
+| `lib/remote.ts` | Fetches my GitHub repos and the blog feed on the server. Cached for an hour. If a request fails, the site still works without it. |
+| `lib/themes.ts` | The colour themes. The colours themselves are CSS variables in `app/globals.css`. |
+| `components/Terminal.tsx` | The input line, history, tab completion, boot sequence and the sudo easter egg. |
+| `components/MatrixRain.tsx` | The background rain. |
+
+## Things to try
+
+`help` lists the commands. Beyond that: `neofetch`, `theme matrix`, `projects all` for my latest repos from GitHub, and `fx off` if the effects are too much. Tab completes, up and down walk through history. There's also a root password hidden somewhere on the site.
+
+## Notes
+
+- The rain is capped at 24 fps, stops when the tab is hidden, and is switched off for people who prefer reduced motion.
+- The `projects` command shows a hand-picked list, with star counts pulled from GitHub. The repos I picked are in `lib/data.ts`.
+- The skill levels are my own rough estimate, not a measurement.
